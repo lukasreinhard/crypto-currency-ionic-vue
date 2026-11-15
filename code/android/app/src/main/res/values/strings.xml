@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Crypto Tugas 3</string>
+    <string name="title_activity_main">Crypto Tugas 3</string>
+    <string name="package_name">id.ac.ut.cryptotugas3</string>
+    <string name="custom_url_scheme">id.ac.ut.cryptotugas3</string>
+</resources>

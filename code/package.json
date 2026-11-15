@@ -1,0 +1,43 @@
+{
+  "name": "crypto-tugas-3-berbasis-repo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aplikasi sederhana untuk praktikum cryptocurrency CoinLore",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "cap:sync": "npm run build && npx cap sync",
+    "apk:build": "powershell -NoProfile -File scripts/build-apk.ps1"
+  },
+  "dependencies": {
+    "@ionic/vue": "^7.6.0",
+    "@ionic/vue-router": "^7.6.0",
+    "axios": "^1.6.8",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.3",
+    "vite": "^5.1.6",
+    "vue-tsc": "^2.0.7",
+    "@capacitor/cli": "^6.0.0"
+  },
+  "keywords": [
+    "ionic",
+    "vue3",
+    "typescript",
+    "vite",
+    "coinlore-api",
+    "cryptocurrency",
+    "universitas-terbuka",
+    "stsi4303",
+    "msim4401"
+  ],
+  "author": "Lukas Reinhard Sinambela",
+  "license": "MIT"
+}
