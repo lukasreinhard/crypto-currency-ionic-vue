@@ -8,7 +8,7 @@ Proyek mempertahankan **Ionic Vue, TypeScript, Axios, router, dan Capacitor 6** 
 
 ## Menjalankan aplikasi
 
-Buka folder `code` di VS Code, lalu jalankan:
+Buka folder utama repositori di VS Code, yaitu folder yang berisi `package.json`, lalu jalankan:
 
 ```powershell
 npm install

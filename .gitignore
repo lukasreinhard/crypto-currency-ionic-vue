@@ -2,6 +2,8 @@ node_modules/
 dist/
 output/
 .tools/
+/tmp/
+/Tugas_03.pdf
 *.log
 android/.gradle/
 android/build/
